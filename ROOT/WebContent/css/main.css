@@ -1,0 +1,126 @@
+header {
+	background-color: lightgrey;
+	color: black;
+	text-align: center;
+	padding: 5px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	font-family: verdana;
+	font-variant: normal;
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+body {
+	background-color: lightgray;
+}
+
+article {
+	background-color: white;
+	color: black;
+	margin: 10px;
+	padding: 20px;
+	width: auto;
+	height: 100px;
+	border-radius: 50px;
+	border-width: 2px;
+	border-color: purple;
+	border-style: dotted solid;
+}
+
+article img {
+	height: 100%;
+	float: left;
+	margin-right: 20px;
+}
+
+article a:link {
+	color: blue;
+	background-color: transparent;
+}
+
+/*
+article a:visited {
+color: purple;
+background-color: transparent;
+text-decoration: underline;
+}*/
+article a:hover {
+	font-weight: bold;
+	color: red;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+article a:active {
+	color: red;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+
+
+#buy-div {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+a#acquista {
+	color: white;
+	padding: 20px;
+	border-width: 2px;
+	border-color: black;
+	border-style: solid;
+	border-collapse: collapse;
+	border-radius: 5px;
+	background-color: orange;
+	text-decoration: none;
+}
+
+/*Carrello*/
+table {
+	width: 100%;
+	margin-top: 5px;
+	background: red;
+}
+
+table, th, td {
+	border-width: 2px;
+	border-color: black;
+	border-style: solid;
+	border-collapse: collapse;
+	border-radius: 5px;
+	text-align: center;
+}
+
+th {
+	background-color: orange;
+	padding: 5px;
+}
+
+td {
+	background-color: white;
+}
+
+td img {
+	height: 80px;
+	text-align: center;
+}
+
+a#cassa {
+	color: white;
+	padding: 20px;
+	margin-top: 10px;
+	border-width: 2px;
+	border-color: black;
+	border-style: solid;
+	border-collapse: collapse;
+	border-radius: 5px;
+	background-color: orange;
+	text-decoration: none;
+}
+
+.error {
+	color: red;
+}
